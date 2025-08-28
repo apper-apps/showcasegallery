@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 1,
+    "name": "Hotel Services",
+    "url": "https://stunning-cannoli-206cd4.netlify.app/",
+    "description": "Professional hotel services website with modern design and booking functionality"
+  },
+  {
+    "Id": 2,
+    "name": "University Student LMS",
+    "url": "https://dazzling-moxie-51cd3e.netlify.app/",
+    "description": "Learning Management System for university students with course management features"
+  },
+  {
+    "Id": 3,
+    "name": "Calculate Bill Percentage for Discount",
+    "url": "https://loquacious-dango-f515ca.netlify.app/",
+    "description": "Interactive calculator for bill discounts and percentage calculations"
+  },
+  {
+    "Id": 4,
+    "name": "Puzzle Game",
+    "url": "https://puzzle-game-94kw-alphaproject.netlify.app/",
+    "description": "Interactive puzzle game built with HTML5 Canvas and JavaScript"
+  },
+  {
+    "Id": 5,
+    "name": "Lift Organizer Hub",
+    "url": "https://003-23517-7gz2cizgxdrb-deployed.easysite.ai/",
+    "description": "Organization tool for lift and transportation management"
+  },
+  {
+    "Id": 6,
+    "name": "Recipe Sage",
+    "url": "https://recpirsage.vercel.app/",
+    "description": "Recipe discovery and management application with cooking features"
+  },
+  {
+    "Id": 7,
+    "name": "Paint By Marij",
+    "url": "https://paintbymarij.vercel.app/",
+    "description": "Digital painting application with creative tools and canvas features"
+  },
+  {
+    "Id": 8,
+    "name": "Bank IBAN Generator",
+    "url": "https://ibangenius.vercel.app/",
+    "description": "Professional IBAN generator tool for banking and financial services"
+  },
+  {
+    "Id": 9,
+    "name": "Text Edit Flow Like Doc",
+    "url": "https://deft-hummingbird-ef32f1.netlify.app/",
+    "description": "Document editor with advanced text processing and formatting capabilities"
+  },
+  {
+    "Id": 10,
+    "name": "Search Engine Optimization",
+    "url": "https://fanciful-kleicha-01ffb7.netlify.app/",
+    "description": "SEO analysis and optimization tool for website performance"
+  },
+  {
+    "Id": 11,
+    "name": "Baby Name Generator",
+    "url": "https://babynamegenerat.netlify.app/",
+    "description": "Creative baby name generator with cultural and meaning-based suggestions"
+  }
+]

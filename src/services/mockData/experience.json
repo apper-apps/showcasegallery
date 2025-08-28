@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 1,
+    "position": "Intern",
+    "company": "Styleshop (SMC-Private) Limited",
+    "location": "Islamabad",
+    "period": "May to December 2024",
+    "type": "Internship"
+  },
+  {
+    "Id": 2,
+    "position": "Intern",
+    "company": "Dotpay Technologies (Private) Limited",
+    "location": "Pindi Gheb",
+    "period": "January to June 2025",
+    "type": "Internship"
+  }
+]
