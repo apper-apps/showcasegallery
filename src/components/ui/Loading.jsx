@@ -1,3 +1,4 @@
+import React from "react";
 import { cn } from "@/utils/cn";
 
 const Loading = ({ className }) => {
@@ -39,20 +40,7 @@ const Loading = ({ className }) => {
             ))}
           </div>
         </div>
-      ))}
-      
-      <style jsx>{`
-        .shimmer {
-          background: linear-gradient(90deg, transparent, rgba(45, 90, 61, 0.1), transparent);
-          background-size: 200% 100%;
-          animation: shimmer 1.5s infinite;
-        }
-        
-        @keyframes shimmer {
-          0% { background-position: -200% 0; }
-          100% { background-position: 200% 0; }
-        }
-      `}</style>
+))}
     </div>
   );
 };
