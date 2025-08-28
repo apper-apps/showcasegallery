@@ -75,9 +75,9 @@ const SkillsSection = () => {
               </div>
 
               <div className="space-y-4">
-                {skills.map((skill, skillIndex) => (
+{skills.map((skill, skillIndex) => (
                   <SkillBar 
-                    key={skill.Id} 
+                    key={skill.Id ? `${category}-${skill.Id}` : `${category}-${skillIndex}`} 
                     skill={skill} 
                     animated={true}
                     className={`section-reveal`}
