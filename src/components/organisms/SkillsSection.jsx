@@ -74,16 +74,33 @@ const SkillsSection = () => {
                 <div className={`w-16 h-1 bg-gradient-to-r ${getCategoryColor(categoryIndex)} rounded-full`}></div>
               </div>
 
-              <div className="space-y-4">
-{skills.map((skill, skillIndex) => (
-                  <SkillBar 
-                    key={skill.Id ? `${category}-${skill.Id}` : `${category}-${skillIndex}`} 
-                    skill={skill} 
-                    animated={true}
-                    className={`section-reveal`}
-                    style={{animationDelay: `${(categoryIndex * 0.1) + (skillIndex * 0.05)}s`}}
-                  />
-                ))}
+<div className="space-y-4">
+                {skills.map((skill, skillIndex) => {
+                  // Ensure skill is an object and has required properties
+                  if (!skill || typeof skill !== 'object') {
+                    console.warn(`Invalid skill object at index ${skillIndex} in category ${category}`);
+                    return null;
+                  }
+                  
+                  // Generate unique key using correct property name (skill.id, not skill.Id)
+                  const uniqueKey = skill.id 
+                    ? `${category}-${skill.id}` 
+                    : `${category}-skill-${skillIndex}-${Date.now()}`;
+                  
+                  return (
+                    <SkillBar 
+                      key={uniqueKey} 
+                      skill={{
+                        name: skill.name || 'Unknown Skill',
+                        level: typeof skill.level === 'number' ? skill.level : 0,
+                        ...skill
+                      }} 
+                      animated={true}
+                      className={`section-reveal`}
+                      style={{animationDelay: `${(categoryIndex * 0.1) + (skillIndex * 0.05)}s`}}
+                    />
+                  );
+                })}
               </div>
             </div>
           ))}
