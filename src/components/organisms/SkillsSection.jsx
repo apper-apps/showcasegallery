@@ -82,10 +82,11 @@ const SkillsSection = () => {
                     return null;
                   }
                   
-                  // Generate unique key using correct property name (skill.id, not skill.Id)
+// Generate guaranteed unique key by always including skillIndex
+                  // This prevents duplicate keys even if skill.id values are duplicated
                   const uniqueKey = skill.id 
-                    ? `${category}-${skill.id}` 
-                    : `${category}-skill-${skillIndex}-${Date.now()}`;
+                    ? `${category}-${skill.id}-${skillIndex}` 
+                    : `${category}-skill-${skillIndex}-${Math.random().toString(36).substr(2, 9)}`;
                   
                   return (
                     <SkillBar 
