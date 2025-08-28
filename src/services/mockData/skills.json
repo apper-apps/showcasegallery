@@ -1,128 +1,128 @@
 [
   {
-    "Id": 1,
+    "id": 1,
     "name": "HTML5",
-    "category": "Frontend Technologies",
-    "level": 95
+    "level": 95,
+    "category": "Frontend Development"
   },
   {
-    "Id": 2,
+    "id": 2,
     "name": "CSS3",
-    "category": "Frontend Technologies",
-    "level": 90
+    "level": 92,
+    "category": "Frontend Development"
   },
   {
-    "Id": 3,
-    "name": "VSCode",
-    "category": "Development Tools",
-    "level": 90
+    "id": 3,
+    "name": "JavaScript",
+    "level": 88,
+    "category": "Frontend Development"
   },
   {
-    "Id": 4,
+    "id": 4,
+    "name": "React",
+    "level": 85,
+    "category": "Frontend Development"
+  },
+  {
+    "id": 5,
     "name": "Tailwind CSS",
-    "category": "CSS Frameworks",
-    "level": 85
+    "level": 90,
+    "category": "Frontend Development"
   },
   {
-    "Id": 5,
-    "name": "Git",
-    "category": "Development Tools",
-    "level": 85
-  },
-  {
-    "Id": 6,
-    "name": "GitHub",
-    "category": "Development Tools",
-    "level": 85
-  },
-  {
-    "Id": 7,
-    "name": "Digital Marketing",
-    "category": "Marketing & SEO",
-    "level": 85
-  },
-  {
-    "Id": 8,
-    "name": "WordPress",
-    "category": "CMS Development",
-    "level": 80
-  },
-  {
-    "Id": 9,
-    "name": "Bootstrap",
-    "category": "CSS Frameworks",
-    "level": 80
-  },
-  {
-    "Id": 10,
-    "name": "Firebase",
-    "category": "Cloud Services",
-    "level": 75
-  },
-  {
-    "Id": 11,
-    "name": "cPanel",
-    "category": "Web Hosting",
-    "level": 75
-  },
-  {
-    "Id": 12,
-    "name": "MySQL",
-    "category": "Databases",
-    "level": 75
-  },
-  {
-    "Id": 13,
-    "name": "Figma",
-    "category": "Design Tools",
-    "level": 70
-  },
-  {
-    "Id": 14,
-    "name": "PHP",
-    "category": "Backend Technologies",
-    "level": 70
-  },
-  {
-    "Id": 15,
-    "name": "Google APIs",
-    "category": "API Integration",
-    "level": 70
-  },
-  {
-    "Id": 16,
-    "name": "Gutenberg Blocks",
-    "category": "WordPress Development",
-    "level": 70
-  },
-  {
-    "Id": 17,
+    "id": 6,
     "name": "Python",
-    "category": "Programming Languages",
-    "level": 65
+    "level": 82,
+    "category": "Backend Development"
   },
   {
-    "Id": 18,
-    "name": "Cloudflare",
-    "category": "Cloud Services",
-    "level": 65
+    "id": 7,
+    "name": "PHP",
+    "level": 85,
+    "category": "Backend Development"
   },
   {
-    "Id": 19,
-    "name": "Chrome Extensions",
-    "category": "Browser Development",
-    "level": 65
+    "id": 8,
+    "name": "MySQL",
+    "level": 78,
+    "category": "Backend Development"
   },
   {
-    "Id": 20,
-    "name": "DNS Management",
-    "category": "Web Hosting",
-    "level": 65
+    "id": 9,
+    "name": "API Integration",
+    "level": 88,
+    "category": "Backend Development"
   },
   {
-    "Id": 21,
-    "name": "HTML Canvas",
-    "category": "Game Development",
-    "level": 60
+    "id": 10,
+    "name": "WordPress",
+    "level": 92,
+    "category": "CMS Development"
+  },
+  {
+    "id": 11,
+    "name": "Custom Themes",
+    "level": 90,
+    "category": "CMS Development"
+  },
+  {
+    "id": 12,
+    "name": "Plugin Development",
+    "level": 85,
+    "category": "CMS Development"
+  },
+  {
+    "id": 13,
+    "name": "WooCommerce",
+    "level": 83,
+    "category": "CMS Development"
+  },
+  {
+    "id": 14,
+    "name": "Git & GitHub",
+    "level": 87,
+    "category": "DevOps & Tools"
+  },
+  {
+    "id": 15,
+    "name": "Firebase",
+    "level": 80,
+    "category": "DevOps & Tools"
+  },
+  {
+    "id": 16,
+    "name": "Web Hosting",
+    "level": 85,
+    "category": "DevOps & Tools"
+  },
+  {
+    "id": 17,
+    "name": "Performance Optimization",
+    "level": 82,
+    "category": "DevOps & Tools"
+  },
+  {
+    "id": 18,
+    "name": "SEO Strategy",
+    "level": 88,
+    "category": "Digital Marketing"
+  },
+  {
+    "id": 19,
+    "name": "Google Analytics",
+    "level": 85,
+    "category": "Digital Marketing"
+  },
+  {
+    "id": 20,
+    "name": "Social Media Management",
+    "level": 90,
+    "category": "Digital Marketing"
+  },
+  {
+    "id": 21,
+    "name": "Content Strategy",
+    "level": 87,
+    "category": "Digital Marketing"
   }
 ]

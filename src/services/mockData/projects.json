@@ -1,68 +1,110 @@
 [
   {
     "Id": 1,
-    "name": "Hotel Services",
-    "url": "https://stunning-cannoli-206cd4.netlify.app/",
-    "description": "Professional hotel services website with modern design and booking functionality"
+    "title": "Hotel Booking System",
+    "description": "Comprehensive hotel management and booking platform with real-time availability, payment integration, and customer management features.",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+    "category": "Web Application",
+    "status": "Completed",
+    "liveUrl": "https://hotel-booking-demo.example.com",
+    "githubUrl": "https://github.com/marijmaryam/hotel-booking",
+    "image": "/projects/hotel-booking.jpg",
+    "features": [
+      "Real-time room availability",
+      "Payment gateway integration",
+      "Admin dashboard",
+      "Customer booking management"
+    ],
+    "completedDate": "2023-08"
   },
   {
     "Id": 2,
-    "name": "University Student LMS",
-    "url": "https://dazzling-moxie-51cd3e.netlify.app/",
-    "description": "Learning Management System for university students with course management features"
+    "title": "University Website",
+    "description": "Modern, responsive university website with course management, student portal, and administrative features built on WordPress.",
+    "technologies": ["WordPress", "PHP", "CSS3", "JavaScript", "MySQL"],
+    "category": "Educational Platform",
+    "status": "Completed",
+    "liveUrl": "https://university-demo.example.com",
+    "githubUrl": "https://github.com/marijmaryam/university-site",
+    "image": "/projects/university-site.jpg",
+    "features": [
+      "Course catalog system",
+      "Student enrollment portal",
+      "Faculty management",
+      "Event calendar integration"
+    ],
+    "completedDate": "2023-07"
   },
   {
     "Id": 3,
-    "name": "Calculate Bill Percentage for Discount",
-    "url": "https://loquacious-dango-f515ca.netlify.app/",
-    "description": "Interactive calculator for bill discounts and percentage calculations"
+    "title": "E-commerce Fashion Store",
+    "description": "Full-featured online fashion store with inventory management, customer accounts, and integrated payment processing.",
+    "technologies": ["WordPress", "WooCommerce", "PHP", "CSS3", "JavaScript"],
+    "category": "E-commerce",
+    "status": "Completed",
+    "liveUrl": "https://fashion-store-demo.example.com",
+    "githubUrl": "https://github.com/marijmaryam/fashion-store",
+    "image": "/projects/fashion-store.jpg",
+    "features": [
+      "Product catalog with filters",
+      "Shopping cart functionality",
+      "User account management",
+      "Order tracking system"
+    ],
+    "completedDate": "2023-06"
   },
   {
     "Id": 4,
-    "name": "Puzzle Game",
-    "url": "https://puzzle-game-94kw-alphaproject.netlify.app/",
-    "description": "Interactive puzzle game built with HTML5 Canvas and JavaScript"
+    "title": "Interactive Web Games",
+    "description": "Collection of browser-based games including puzzle games, arcade-style games, and educational games built with HTML5 Canvas.",
+    "technologies": ["HTML5", "Canvas", "JavaScript", "CSS3"],
+    "category": "Gaming",
+    "status": "Completed",
+    "liveUrl": "https://web-games-demo.example.com",
+    "githubUrl": "https://github.com/marijmaryam/web-games",
+    "image": "/projects/web-games.jpg",
+    "features": [
+      "Multiple game types",
+      "High score tracking",
+      "Responsive gameplay",
+      "Progressive difficulty"
+    ],
+    "completedDate": "2023-05"
   },
   {
     "Id": 5,
-    "name": "Lift Organizer Hub",
-    "url": "https://003-23517-7gz2cizgxdrb-deployed.easysite.ai/",
-    "description": "Organization tool for lift and transportation management"
+    "title": "Portfolio Website",
+    "description": "Personal portfolio showcasing web development projects with modern design, smooth animations, and responsive layout.",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "React"],
+    "category": "Portfolio",
+    "status": "Completed",
+    "liveUrl": "https://portfolio-demo.example.com",
+    "githubUrl": "https://github.com/marijmaryam/portfolio",
+    "image": "/projects/portfolio.jpg",
+    "features": [
+      "Project showcase",
+      "Contact form integration",
+      "Smooth animations",
+      "Mobile-first design"
+    ],
+    "completedDate": "2023-09"
   },
   {
     "Id": 6,
-    "name": "Recipe Sage",
-    "url": "https://recpirsage.vercel.app/",
-    "description": "Recipe discovery and management application with cooking features"
-  },
-  {
-    "Id": 7,
-    "name": "Paint By Marij",
-    "url": "https://paintbymarij.vercel.app/",
-    "description": "Digital painting application with creative tools and canvas features"
-  },
-  {
-    "Id": 8,
-    "name": "Bank IBAN Generator",
-    "url": "https://ibangenius.vercel.app/",
-    "description": "Professional IBAN generator tool for banking and financial services"
-  },
-  {
-    "Id": 9,
-    "name": "Text Edit Flow Like Doc",
-    "url": "https://deft-hummingbird-ef32f1.netlify.app/",
-    "description": "Document editor with advanced text processing and formatting capabilities"
-  },
-  {
-    "Id": 10,
-    "name": "Search Engine Optimization",
-    "url": "https://fanciful-kleicha-01ffb7.netlify.app/",
-    "description": "SEO analysis and optimization tool for website performance"
-  },
-  {
-    "Id": 11,
-    "name": "Baby Name Generator",
-    "url": "https://babynamegenerat.netlify.app/",
-    "description": "Creative baby name generator with cultural and meaning-based suggestions"
+    "title": "Business Management Tool",
+    "description": "Web-based business management application with task tracking, team collaboration, and reporting features.",
+    "technologies": ["React", "Python", "Firebase", "Tailwind CSS"],
+    "category": "Business Application",
+    "status": "In Progress",
+    "liveUrl": "https://business-tool-demo.example.com",
+    "githubUrl": "https://github.com/marijmaryam/business-tool",
+    "image": "/projects/business-tool.jpg",
+    "features": [
+      "Task and project management",
+      "Team collaboration tools",
+      "Analytics dashboard",
+      "Real-time notifications"
+    ],
+    "completedDate": null
   }
 ]

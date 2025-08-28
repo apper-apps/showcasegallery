@@ -1,16 +1,33 @@
 [
   {
     "Id": 1,
-    "degree": "Bachelor of Business Administration",
     "institution": "Virtual University of Pakistan",
-    "period": "2022-2025",
-    "status": "Current"
+    "degree": "Bachelor of Business Administration (BSBA)",
+    "field": "Business Administration",
+    "startYear": "2022",
+    "endYear": "Present",
+    "status": "In Progress",
+    "gpa": "3.7/4.0",
+    "description": "Comprehensive business education focusing on management, marketing, finance, and entrepreneurship. Actively integrating technical skills with business acumen to create innovative solutions.",
+    "achievements": [
+      "Dean's List - Fall 2023",
+      "Business Strategy Project Excellence",
+      "Digital Marketing Campaign Leadership"
+    ]
   },
   {
     "Id": 2,
-    "degree": "Intermediate in Computer Science (ICS)",
-    "institution": "Oxford College Pindi Gheb",
-    "period": "2020-2022",
-    "status": "Completed"
+    "institution": "Self-Directed Learning",
+    "degree": "Web Development Specialization",
+    "field": "Computer Science & Technology",
+    "startYear": "2021",
+    "endYear": "Ongoing",
+    "status": "Continuous",
+    "description": "Intensive self-study and practical application of modern web development technologies including React, Python, PHP, and WordPress ecosystem.",
+    "achievements": [
+      "15+ Production Projects Deployed",
+      "Full-Stack Development Proficiency",
+      "Cloud Hosting & DevOps Knowledge"
+    ]
   }
 ]
