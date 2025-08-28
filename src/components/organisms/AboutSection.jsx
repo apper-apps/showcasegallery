@@ -18,17 +18,17 @@ const AboutSection = () => {
               Passionate Developer & Business Student
             </h3>
             
-            <p className="text-lg text-gray-600 leading-relaxed">
-              My journey in web development began with simple curiosity about how websites work, 
-              which quickly evolved into a deep passion for creating meaningful digital experiences. 
+<p className="text-lg text-gray-600 leading-relaxed">
+              My journey in web development began with a curiosity about how websites work, 
+              which quickly evolved into a deep passion for creating digital experiences. 
               I believe in combining technical expertise with business acumen to create solutions 
               that not only function well but also drive real value.
             </p>
             
             <p className="text-lg text-gray-600 leading-relaxed">
-              Currently pursuing my Bachelor of Business Administration while building practical 
-              experience through internships and personal projects. I'm particularly interested 
-              in full-stack development, cloud technologies, and emerging digital trends.
+              Currently pursuing my Bachelor of Business Administration at Virtual University of Pakistan 
+              while building practical experience through internships at Styleshop and Dotpay Technologies. 
+              I'm particularly interested in full-stack development, cloud technologies, and emerging digital trends.
             </p>
 
             {/* Key Points */}

@@ -16,10 +16,10 @@ const SkillBar = ({ skill, className, animated = true }) => {
         <span className="text-sm font-semibold gradient-text">{skill.level}%</span>
       </div>
       
-      <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+      <div className="w-full bg-bottle-green-100 rounded-full h-3 overflow-hidden">
         <div
           className={cn(
-            "h-3 bg-gradient-to-r from-bottle-green-600 to-bottle-green-500 rounded-full transition-all duration-1000 ease-out",
+            "h-3 bg-gradient-to-r from-bottle-green-600 to-bottle-green-500 rounded-full transition-all duration-1000 ease-out shadow-sm",
             animated && isVisible ? "opacity-100" : "opacity-0 w-0"
           )}
           style={{

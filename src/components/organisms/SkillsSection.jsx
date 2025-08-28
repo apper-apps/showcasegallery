@@ -47,7 +47,7 @@ const SkillsSection = () => {
   };
 
   return (
-    <section id="skills" className="py-20 bg-gray-50">
+<section id="skills" className="py-20 bg-gradient-to-br from-bottle-green-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-plus-jakarta font-bold gradient-text mb-6">
@@ -92,7 +92,7 @@ const SkillsSection = () => {
         {/* Skills Summary */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-bottle-green-600 to-bottle-green-700 rounded-2xl p-8 text-white section-reveal">
-            <h3 className="text-2xl font-plus-jakarta font-semibold mb-4">
+<h3 className="text-2xl font-plus-jakarta font-semibold mb-4">
               Comprehensive Technical Expertise
             </h3>
             <p className="text-lg opacity-90 max-w-4xl mx-auto leading-relaxed">
@@ -102,14 +102,34 @@ const SkillsSection = () => {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               {[
-                "Web Development & Engineering",
-                "WordPress & CMS Development", 
-                "Cloud & DevOps Operations",
-                "Product & Project Management"
+                {
+                  title: "Web Development & Engineering",
+                  skills: ["Full-Stack Development (HTML5, CSS3, Python)", "API Integration (Google APIs, Third-party Services)", "Game Development (Web-based Logic, HTML Canvas)", "Browser Extension Development", "Modern CSS (Tailwind CSS, Responsive Design)"]
+                },
+                {
+                  title: "WordPress & CMS Development", 
+                  skills: ["WordPress Theme & Plugin Development", "Custom Gutenberg Blocks", "E-commerce Solutions", "University & Educational Websites", "Hotel & Portfolio Websites"]
+                },
+                {
+                  title: "Cloud & DevOps Operations",
+                  skills: ["Version Control (Git, GitHub)", "Web Hosting & DNS Management", "Cloud Hosting (Firebase, Static Sites)", "Performance Optimization", "Security & Backup Solutions"]
+                },
+                {
+                  title: "Emerging Technologies & Digital Marketing",
+                  skills: ["AI-Powered Development Tools", "Modern IDEs (VSCode, Cursor, Windsurf)", "No-Code/Low-Code Platforms", "Digital Marketing & SEO Strategy", "Social Media Management & Analytics"]
+                }
               ].map((area, index) => (
                 <div key={index} className="text-center">
-                  <div className="bg-white/20 rounded-lg p-4 backdrop-blur-sm">
-                    <div className="text-sm font-medium">{area}</div>
+                  <div className="bg-white/20 rounded-lg p-6 backdrop-blur-sm hover:bg-white/30 transition-colors">
+                    <div className="text-sm font-bold mb-3 text-white">{area.title}</div>
+                    <ul className="text-xs text-white/90 space-y-1 text-left">
+                      {area.skills.map((skill, skillIndex) => (
+                        <li key={skillIndex} className="flex items-start">
+                          <span className="text-white/70 mr-1">•</span>
+                          <span>{skill}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))}
